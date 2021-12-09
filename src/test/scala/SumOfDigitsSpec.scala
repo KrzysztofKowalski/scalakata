@@ -1,12 +1,9 @@
 import collection.mutable.Stack
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.dsl.MatcherWords.*
-
-import collection.mutable.Stack
-import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-class SumOfDigitsSpec extends AnyFlatSpec with Matchers {
+  class SumOfDigitsSpec extends AnyFlatSpec with Matchers {
 
   /**
    * Digital root is the recursive sum of all the digits in a number.

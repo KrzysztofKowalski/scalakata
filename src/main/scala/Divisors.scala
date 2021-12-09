@@ -18,5 +18,4 @@ class Divisors {
   def divisors(n: Int): Int = {
     Range(1, n).count(p => n % p == 0) + 1
   }
-
 }
